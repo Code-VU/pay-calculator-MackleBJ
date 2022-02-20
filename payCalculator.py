@@ -3,7 +3,7 @@ from audioop import ratecv
 
 def calculatePay():
     # Implement your solution in between the two comment blocks
-    # print("calculating pay")
+    print("calculating pay")
     # This first line is provided for you
     hrs = int(input("Enter Hours: "))
     rate = float(input("Enter Rate: "))
