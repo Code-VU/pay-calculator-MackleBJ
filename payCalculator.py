@@ -3,10 +3,10 @@ from audioop import ratecv
 
 def calculatePay():
     # Implement your solution in between the two comment blocks
-    print("calculating pay")
+    # print("calculating pay")
     # This first line is provided for you
-    hrs = input("Enter Hours: ")
-    pay = input("Enter Rate: ")
+    hrs = int(input("Enter Hours: "))
+    rate = int(input("Enter Rate: "))
     gross_pay = hrs * rate
     print(gross_pay)
     
